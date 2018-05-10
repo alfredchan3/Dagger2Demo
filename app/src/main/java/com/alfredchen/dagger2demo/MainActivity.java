@@ -21,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         DaggerMainActivityComponent.create().inject(this);
         String show = pot.show();
         Toast.makeText(MainActivity.this, show, Toast.LENGTH_SHORT).show();
-
     }
 }
